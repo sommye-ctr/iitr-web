@@ -83,14 +83,14 @@ nav ul{
     align-items: center;
     padding-inline-start: 0;
 }
-header li{
-    list-style-type: none;
-    padding: 0 20px;
-    display: inline-block;
-}
 header a{
     color: white;
     text-decoration: none;
+}
+nav a::after{
+    content: url("assets/chevron-down.svg");
+    margin-left: 5px;
+    vertical-align: top;
 }
 
 .main p{
