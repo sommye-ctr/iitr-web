@@ -2,18 +2,43 @@ header{
     background-color: #222222;
     width: 100%;
 }
-
 body{
     margin: 0;
     padding: 0;
     height: 100vh;
     font-family: Arial, sans-serif;
 }
+button.large{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button.short{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
 
 .header-topbar{
     display: flex;
-    background-color: #3C3C3C;
     color: white;
+    width: 90vw;
+    justify-content: space-between;
+    align-items: center;
+}
+.topbar-left{
+    display: flex;
+    gap: 20px;
+}
+.topbar-right{
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
 
 .header-logo{
@@ -33,7 +58,7 @@ body{
 .header-logo-text div{
     color: white;
 }
-.header hr{
+header hr{
     border-color: #FEBE10;
     border-width: 0.5px;
     margin: 0;
@@ -63,7 +88,7 @@ header li{
     padding: 0 20px;
     display: inline-block;
 }
-header li a{
+header a{
     color: white;
     text-decoration: none;
 }
@@ -375,14 +400,6 @@ header li a{
     flex-direction: row;
     align-items: center;
     gap: 20px;
-}
-button{
-    border: 2px solid black;
-    background-color: white;
-    color: black;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
 }
 
 
