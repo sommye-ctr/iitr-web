@@ -343,6 +343,7 @@ nav a::after{
 .events-carousel{
     display: flex;
     justify-content: space-between;
+    gap:10px;
 }
 .events-list{
     display: flex;
@@ -350,6 +351,9 @@ nav a::after{
     gap: 10px;
     align-self: stretch;
     justify-content: space-around;
+}
+.events-img{
+    min-width: 0;
 }
 .event{
     padding: 10px;
@@ -545,4 +549,12 @@ footer a{
     margin-top: 10px;
     padding-top: 10px;
     padding-bottom:10px;
+}
+
+
+
+@media (max-width: 768px) {
+    .header-topbar{
+        width: 100vw;
+    }
 }
