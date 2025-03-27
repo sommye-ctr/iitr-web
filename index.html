@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>IIT Roorkee</title>
         <link rel="stylesheet" href="style.css">
     </head>
@@ -15,6 +16,11 @@
                         <a href="#">iConnect</a>
                         <a href="#">Directory</a>
                         <a href="#">Contact Us</a>
+                    </div>
+
+                    <div class="topbar-left-mobile">
+                        <a href="#">Saharanpur Campus</a>
+                        <img src="assets/chevron-down.svg" alt="">
                     </div>
                     
                     <div class="topbar-right">
@@ -35,7 +41,7 @@
                             <span>ENG</span>
                         </div>
                    
-                        <img src="assets/search.png" alt="">
+                        <img src="assets/search.png" alt="" id="search-icon">
                     </div>
                     
                 </div>
@@ -43,18 +49,32 @@
 
             <hr>
 
-            <div class="header-logo">
-                <div><img src="assets/iitr-logo.png" alt="logo"></div>
-                <div class="header-logo-text">
-                    <div class="header-text-hindi">भारतीय प्रौद्योगिकी संस्थान रूड़की</div>
-                    <div>Indian Institute of Technology Roorkee</div>
+            <div style="display: flex;justify-content: center;">
+                <div class="header-logo-outer">
+                    <div class="hamburger">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+    
+                    <div class="header-logo">
+                        <div><img src="assets/iitr-logo.png" alt="logo"></div>
+                        <div class="header-logo-text">
+                            <div class="header-text-hindi">भारतीय प्रौद्योगिकी संस्थान रूड़की</div>
+                            <div>Indian Institute of Technology Roorkee</div>
+                        </div>
+                    </div>
+    
+                    <img src="assets/search.png" alt="search" id="search-icon1">
                 </div>
             </div>
+            
 
             <hr class="short-hr">
             <br>
 
-            <nav style="display: flex;justify-content: center;width: 100vw;">
+            <nav>
                 <div style="display: flex;justify-content: space-between;width: 90vw;">
                     <a href="#">INSTITUTE</a>
                     <a href="#">ACADEMICS</a>
@@ -66,12 +86,16 @@
                     <a href="#">RESOURCES</a>
                 </div>
             </nav>
+
+            <div id="iitr-slogan">
+                श्रमं विना न किमपि साध्यम्
+            </div>
             <br>
         </header>
 
         <main>
             <div class="main">
-                <img src="assets/background.png" alt="iit roorkee campus">
+                <img id="bg-image"alt="iit roorkee campus">
                 <p>RESEARCH<br>EDUCATE<br>INNOVATE<br>TOMORROW</p>
             </div>
         </main>
