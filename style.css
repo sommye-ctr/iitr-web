@@ -218,6 +218,7 @@ main p {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 10px;
+    margin-top: 50px;
 }
 
 .research-grid div {
@@ -346,6 +347,8 @@ main p {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    margin-top: 78px;
+    margin-bottom: 78px;
 }
 .recent-achievement {
     font-size: 1.5em;
