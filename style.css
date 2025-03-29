@@ -13,6 +13,9 @@ body {
     overflow-x: hidden;
     font-family: Arial, sans-serif;
 }
+body section{
+    top: -650px;
+}
 
 button.large {
     border: 2px solid black;
@@ -126,14 +129,18 @@ nav a::after {
 
 main p {
     color: white;
-    font-size: 3.5em;
+    font-size: 4rem;
     font-weight: 800;
-    position: absolute;
-    top: 28%;
-    left: 15%;
+    position: relative;
+    top: -928px;
+    left: 20%;
 }
 #bg-image {
     content: url("assets/background.png");
+    width: 100%;
+    position: relative;
+    top: -200px;
+    z-index: -1;
 }
 /* #bg-video{
     display: none;
@@ -142,12 +149,6 @@ main p {
     top: 0;
     z-index: -1;
 } */
-main img {
-    width: 100%;
-    position: absolute;
-    top: 0;
-    z-index: -1;
-}
 
 
 
@@ -159,8 +160,7 @@ main img {
     display: flex;
     width: 90vw;
     color: white;
-    position: absolute;
-    top: 780px;
+    position: relative;
     justify-content: center;
     align-items: stretch;
 }
@@ -194,8 +194,8 @@ main img {
     display: flex;
     justify-content: center;
     width: 100vw;
-    position: absolute;
-    top: 1080px;
+    position: relative;
+    margin-top: 80px;
 }
 
 .researches {
@@ -276,13 +276,13 @@ main img {
 
 
 .rankings {
-    position: absolute;
-    top: 1910px;
     display: flex;
     flex-direction: column;
     background-color: #F9F9F9;
     width: 100vw;
     align-items: center;
+    position: relative;
+    margin-top: 80px;
 }
 
 .rankings span {
@@ -334,9 +334,8 @@ main img {
     display: flex;
     justify-content: center;
     width: 100vw;
-    position: absolute;
-    top: 2450px;
     background-color: #99BBD1;
+    position: relative;
 }
 .achievements {
     width: 90vw;
@@ -400,8 +399,8 @@ main img {
     display: flex;
     justify-content: center;
     width: 100vw;
-    position: absolute;
-    top: 3150px;
+    position: relative;
+    margin-top: 75px;
 }
 
 .events {
@@ -452,8 +451,8 @@ main img {
     display: flex;
     justify-content: center;
     width: 100vw;
-    position: absolute;
-    top: 3950px;
+    position: relative;
+    margin-top: 154px;
 }
 
 .milestones {
@@ -505,8 +504,8 @@ main img {
     display: flex;
     justify-content: center;
     width: 100vw;
-    position: absolute;
-    top: 4750px;
+    position: relative;
+    margin-top: 102px;
 }
 
 .info {
@@ -595,13 +594,15 @@ main img {
 
 
 footer {
-    position: absolute;
-    top: 5450px;
     display: flex;
     justify-content: center;
     background-color: black;
     color: #F7F7F7;
     width: 100vw;
+    top: -650px;
+    position: relative;
+    margin-bottom: -650px;
+    margin-top: 120px;
 }
 
 .item-row{
