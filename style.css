@@ -604,6 +604,16 @@ footer {
     width: 100vw;
 }
 
+.item-row{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.item-row-without{
+    display: flex;
+    align-items: center;
+}
+
 .footer {
     display: flex;
     flex-direction: column;
@@ -721,6 +731,10 @@ footer a {
     #iitr-slogan {
         display: flex;
         justify-content: center;
+    }
+
+    #bg-image {
+        content: url("assets/background-mobile.png");
     }
 
 
