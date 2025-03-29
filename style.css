@@ -132,11 +132,16 @@ main p {
     top: 28%;
     left: 15%;
 }
-
 #bg-image {
     content: url("assets/background.png");
 }
-
+/* #bg-video{
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+} */
 main img {
     width: 100%;
     position: absolute;
@@ -144,11 +149,12 @@ main img {
     z-index: -1;
 }
 
+
+
 .stats-cover {
     display: flex;
     justify-content: center;
 }
-
 .stats {
     display: flex;
     width: 90vw;
@@ -158,30 +164,25 @@ main img {
     justify-content: center;
     align-items: stretch;
 }
-
 .stats div {
     padding: 5%;
     display: flex;
     justify-content: space-between;
 }
-
 .stats div div {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-
 .stats .students,
 .stats .staff {
     background-color: #99BBD1;
 }
-
 .stats .patents,
 .stats .faculty {
     background-color: #202020;
 }
-
 .stats div p {
     font-size: 2em;
     margin: 0;
@@ -720,11 +721,6 @@ footer a {
     #iitr-slogan {
         display: flex;
         justify-content: center;
-    }
-
-
-    #bg-image {
-        content: url("assets/background-mobile.png");
     }
 
 
