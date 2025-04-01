@@ -105,7 +105,9 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw
+    width: 100vw;
+    margin-top: 26px;
+    padding-bottom: 26px;
 }
 
 nav ul {
@@ -164,10 +166,15 @@ main p {
     justify-content: center;
     align-items: stretch;
 }
+.stats img{
+    width: 50%;
+    height: auto;
+}
 .stats div {
     padding: 5%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .stats div div {
     display: flex;
@@ -175,18 +182,20 @@ main p {
     align-items: center;
     justify-content: center;
 }
+.stats div p {
+    font-size: 2rem;
+    margin: 0;
+}
 .stats .students,
 .stats .staff {
     background-color: #99BBD1;
+    color: black;
 }
 .stats .patents,
 .stats .faculty {
     background-color: #202020;
 }
-.stats div p {
-    font-size: 2em;
-    margin: 0;
-}
+
 
 
 
@@ -575,6 +584,7 @@ main p {
 .upcoming-events-item {
     display: flex;
     gap: 10px;
+    align-items: center;
 }
 
 .ue-item-box {
@@ -587,6 +597,7 @@ main p {
     padding-left: 10px;
     padding-right: 10px;
     width: 50px;
+    box-shadow: 1px 1px 5px #86868633;
 }
 
 .ue-large {
@@ -735,16 +746,25 @@ footer a {
     #iitr-slogan {
         display: flex;
         justify-content: center;
+        padding-top: 4px;
+        padding-bottom: 4px;
     }
 
     #bg-image {
+        display: block;
         content: url("assets/background-mobile.png");
+        width: 100vw;
+    }
+
+    main p{
+        position: relative;
+        top: -75vh;
+        left: 5%;
     }
 
 
     .stats {
         flex-wrap: wrap;
-        top: 130%;
     }
 
     .stats div {
@@ -763,9 +783,6 @@ footer a {
 
 
 
-    .researches-cover{
-        top:190%;
-    }
     .research-grid {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -824,9 +841,6 @@ footer a {
 
 
 
-    .rankings{
-        top:370%
-    }
     .rankings-row{
         flex-direction: column;
     }
@@ -847,7 +861,6 @@ footer a {
 
 
     .achievements-cover{
-        top: 540%;
         background-color: #F8B300;
     }
     .achievement-item:nth-of-type(1),
@@ -857,8 +870,8 @@ footer a {
 
 
     .events-cover{
-        top: 620%;
         background-color: #232323;
+        margin-top: 0px;
     }
     .events{
         border-radius: 0;
@@ -881,9 +894,6 @@ footer a {
 
 
 
-    .milestones-cover{
-        top: 700%;
-    }
     .milestones-carousel{
         gap: 10px;
     }
@@ -896,9 +906,6 @@ footer a {
 
 
 
-    .info-cover{
-        top: 810%
-    }
     .info{
         flex-direction: column;
     }
@@ -915,9 +922,6 @@ footer a {
 
 
 
-    footer{
-        top: 930%;
-    }
     .footer-row1{
         flex-direction: column;
         width: 80vw;
