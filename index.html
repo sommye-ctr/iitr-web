@@ -31,8 +31,8 @@
                         </div>
                    
                         <div>
-                            <button type="short">A</button>
-                            <button type="short" style="background-color: #FEBE10 !important;">A</button>
+                            <button class="short-bt">A</button>
+                            <button class="short-bt" style="background-color: #FEBE10 !important;">A</button>
                         </div>
                    
                         <div>
@@ -93,11 +93,23 @@
         </header>
 
         <main>
-                <img id="bg-image" alt="iit roorkee campus">
-                <!-- <video id="bg-video"  autoplay>
-                    <source src="assets/bg-vid.mp4" type="video/mp4">
-                </video> -->
+            <video id="bg-video"  autoplay loop muted>
+                <source src="assets/bg-vid.mp4" type="video/mp4">
+            </video>
+            <img id="bg-image" alt="iit roorkee campus">
+                
+                <!-- <div style="display: flex;top: -928px;">
+                    <p>RESEARCH<br>EDUCATE<br>INNOVATE<br>TOMORROW</p>
+                    <div class="share-icons">
+                        <img src="assets/fb-icon.png" alt="">
+                        <img src="assets/x-icon.png" alt="">
+                        <img src="assets/linkedin-icon.png" alt="">
+                        <img src="assets/insta-icon.png" alt="">
+                        <img src="assets/yt-icon.png" alt="">
+                    </div>
+                </div> -->
                 <p>RESEARCH<br>EDUCATE<br>INNOVATE<br>TOMORROW</p>
+                
         </main>
 
         <section class="stats-cover">
@@ -356,7 +368,13 @@
                     </span>
                     <br>
                     <br>
-                    <button type="large">READ MORE</button>
+
+                    <button style="border: 1px solid black;
+                    background-color: white;
+                    color: black;
+                    padding: 10px 20px;
+                    font-size: 16px;
+                    cursor: pointer;">READ MORE</button>
                 </div>
             </section>
         </section>

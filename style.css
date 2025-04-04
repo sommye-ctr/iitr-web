@@ -17,7 +17,7 @@ body section{
     top: -650px;
 }
 
-button.large {
+.large-bt {
     border: 2px solid black;
     background-color: white;
     color: black;
@@ -26,7 +26,7 @@ button.large {
     cursor: pointer;
 }
 
-button.short {
+.short-bt {
     background-color: white;
     color: black;
     cursor: pointer;
@@ -134,8 +134,8 @@ main p {
     font-size: 4rem;
     font-weight: 800;
     position: relative;
-    top: -928px;
-    left: 20%;
+    top: -828px;
+    left: 15%;
 }
 #bg-image {
     content: url("assets/background.png");
@@ -143,6 +143,26 @@ main p {
     position: relative;
     top: -200px;
     z-index: -1;
+    display: none;
+}
+#bg-video{
+    width: 100%;
+    position: relative;
+    top: -200px;
+    z-index: -1;
+}
+.share-icons{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -1128px;
+    align-items:flex-end;
+    gap: 8px;
+}
+.share-icons img{
+    height: 28px;
+    width: 28px;
+    right: 12px;
 }
 /* #bg-video{
     display: none;
@@ -445,14 +465,16 @@ main p {
     min-width: 0;
 }
 .event {
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 7.5px;
+    padding-left: 7.5px;
     font-size: 1.2em;
 }
 .event:nth-of-type(3) {
     background-color: #F9B202;
     border-radius: 10px;
+    color: black;
 }
 #event-detail{
     display: none;
@@ -754,6 +776,10 @@ footer a {
         display: block;
         content: url("assets/background-mobile.png");
         width: 100vw;
+        display: block;
+    }
+    #bg-video{
+        display: none;
     }
 
     main p{
